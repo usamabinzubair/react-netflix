@@ -1,0 +1,59 @@
+.body {
+  padding-top: 2cm;
+  padding-left: 5cm;
+  padding-right: 5cm;
+}
+
+.App {
+  border: 1px solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 1cm;
+  background-color: black;
+}
+
+.boxes {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
+.trial {
+  display: flex;
+  justify-content: center;
+  color: white;
+  border: 1px solid;
+  border-color: red;
+  background-color: red;
+}
+
+.button {
+  padding-top: 0.5cm;
+  padding-left: 5cm;
+  padding-right: 5cm;
+}
+
+.main {
+    display: flex;
+    padding-left: 4cm;
+    padding-right: 4cm;
+    border: 3px solid;
+    align-items: flex-start;
+    background-color: grey;
+  }
+  
+  .plus {
+    color: white;
+    display: flex;
+  }
+  
+  .name {
+    color: white;
+    font-size: 17px;
+  }
